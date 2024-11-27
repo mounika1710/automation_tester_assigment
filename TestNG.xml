@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation-tester-assignment">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="siteURL" value="https://www.fitpeo.com/"/>
+	<parameter name="executionMode" value="headless" />
+	<test name="automation tester assaigmnet test cases">
+		 <classes>	
+			<class name="com.we.tests.AutomationTesterAssigmentTest" />
+		</classes>
+	</test>
+</suite>
